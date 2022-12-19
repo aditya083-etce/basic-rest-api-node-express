@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    display: block;
+}
+
+input, button{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button {
+    background-color:darkslategray;
+    color:antiquewhite;
+}
+
+button:hover {
+    background-color:cadetblue;
+    color:darkslategray;
+}
